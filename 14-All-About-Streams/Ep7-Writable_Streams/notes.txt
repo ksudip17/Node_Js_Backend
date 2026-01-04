@@ -1,0 +1,13 @@
+Writable Streams in Node.js
+A Writable Stream is a stream where you can write data to. Think of it like a pipe where you can pour water in - the stream accepts data and processes it (could be saving to file, sending over network, etc.).
+Core Concept
+
+Purpose: Accept and process data chunk by chunk
+Direction: Data flows INTO the stream
+Use Cases: Writing files, HTTP responses, database writes
+
+Key Methods
+
+write() - Write data to the stream
+end() - Signal no more data will be written
+destroy() - Forcefully close the stream

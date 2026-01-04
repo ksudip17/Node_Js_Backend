@@ -1,0 +1,20 @@
+Duplex, Transform and Passthrough Streams
+
+
+**Duplex Streams**
+- What: Can both read AND write data independently
+- Use: Network connections, WebSockets, TCP sockets
+
+
+**Transform Streams**
+- What: Modifies data as it passes through (input → transform → output)
+- Use: Data processing, compression, encryption
+
+**Passthrough Streams**
+- What: Passes data through without modification
+- Use: Monitoring, logging, testing streams
+
+-> Key Difference: Transform modifies data, PassThrough just observes, Duplex handles bidirectional communication.
+
+
+#More Detailed after Networking chapter.

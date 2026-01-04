@@ -1,0 +1,45 @@
+# 4 main Types of Streams:
+
+1. Readbale -> Read Only    
+2. Writeable -> Write only
+3. Transform -> Dual (both directions)
+4. Duplex -> Transforms data
+
+# Difference between pipe() and pipeline()
+
+* pipe() -> this method is the original way to connect streams. It takes a readbale stream and "pipes" its output into a writable stream.
+
+- usage: Simplifies connecting a readbale stream to a writeable stream, handling data flow automatically.
+
+- syntax: readbaleStream.pipe(writeableStream)
+
+* pipeline() -> a function in the stream module designed to handle a sequence of streams(readable, writeable, transform) more robustly than pipe().
+
+-usage: Simplifies creating a pipeline streams, with automatic error handling and cleaning.
+
+- syntax:   import { pipeline } from 'stream';
+            pipeline (soureStream, transformStream1, transformStream2, destinationStream, callback)
+
+
+# Why streams are so faster than loading entire files.
+
+-> Streams in Node.js are faster than loading entire files into memory because they handle data in smaller chunks, leveraging async I/O and minimizing memory usage.
+
+
+# What stdin/stdout are used for
+
+stdin -> (standard input) is a readable stream (process.stdin) in Node.js that represents input data coming into a program, typically from the keyboard, a file, or another process via piping.
+
+Purpose:
+
+To read user input from the terminal (e.g., typing commands or data).
+To receive data piped from another command or process (e.g., cat file.txt | node script.js).
+To enable interactive command-line applications (e.g., CLI tools, REPLs).
+
+stdout -> (standard output) is a writable stream (process.stdout) in Node.js that represents output data from a program, typically sent to the terminal or piped to another process.
+
+Purpose:
+
+To display output to the console/terminal (e.g., logs, results, or messages).
+To send data to another process or command via piping (e.g., node script.js | grep keyword).
+To provide feedback or results in CLI applications.

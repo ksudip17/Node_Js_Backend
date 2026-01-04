@@ -1,0 +1,1 @@
+Streams in Node.js are objects that allow you to read data from a source or write data to a destination in a continuous, efficient, and memory-friendly manner. They are particularly useful for handling large amounts of data, such as files, network requests, or any other I/O operations, without loading the entire data into memory at once.

@@ -1,0 +1,15 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "This is my testing package",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node -v"
+  },
+  "author": "Sudip Khatiwada",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1"
+  }
+}
