@@ -1,0 +1,22 @@
+**Stdin Data Streams**
+->  By default this Stream in Connected to Keyboard if we start that particluar process from Terminal.
+-> For example if we press "ls" command in the particular directory of a keyboard then it will show some output and we give that command with our keyboard thats why by default it was Connected with keyboard.
+
+ls
+app.js          notes.txt       package.json
+
+-> With this Stream Number 0 is Associated.(fd - file descriptor)
+
+->  It is a Duplex Streams but in many cases it work as Readable Streams.
+
+
+**Stdout Data Streams**
+->  By default this Stream in Connected with Monitor/Display.
+->  It is also a Duplex Stream but in many cases it works as a Writable Duplex Streams.
+-> With this Stream Number 1 is Associated.(fd - file descriptor)
+
+
+**StdErr**
+-> It is also Connected to Monitor/Display.
+->  This is also a Writable Duplex Stream.
+-> With this Stream Number 2 is Associated.(fd - file descriptor)

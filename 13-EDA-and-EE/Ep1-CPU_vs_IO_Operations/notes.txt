@@ -1,0 +1,19 @@
+CPU Operations -> These are tasks that the processor does.
+                -> calculations and logical work
+
+Examples:
+1. Arithmetic Operations
+2. Sorting
+3. Searching
+4. Rendering Graphics
+
+
+I/O Operations -> These are tasks that invovves communicating with the outside world(devices).
+               -> the CPU asking or sending information to other devices.
+               -> Node js handles I/O Operations in very special way.
+
+Examples:
+1. File reading and Writing
+2. DB Querying
+3. Network Request
+4. User Input

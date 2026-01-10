@@ -1,0 +1,13 @@
+{
+  "name": "networking_capabalities_withnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sudip Khatiwada",
+  "license": "ISC",
+  "type": "module"
+}

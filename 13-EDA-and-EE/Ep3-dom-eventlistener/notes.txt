@@ -1,0 +1,13 @@
+ Components of Event Driven Architecture
+
+
+ Event Emitter ------> Event Listener --------> Event Handler
+
+**Examples of EDA pattern**
+
+- Node.js                   - Browser DOM events              
+- OS handling UserInputs   - Chat Apps  
+- Youtube Notifications     - Payment Processing Systems
+- Automation Services
+
+ 

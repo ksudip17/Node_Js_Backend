@@ -1,0 +1,6 @@
+{
+    "type": "commonjs",
+    "dependencies": {
+        "hisab-sudip": "^1.0.0"
+    }
+}

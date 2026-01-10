@@ -1,0 +1,9 @@
+
+Async I/O (Asynchronous Input/Output) in Node.js refers to the non-blocking way of handling input and output operations, such as reading files, writing to a database, or making network requests. Instead of waiting for an operation to complete before moving on to the next task, Node.js uses an event-driven architecture to handle these operations asynchronously.
+
+Key Features of Async I/O in Node.js:
+Non-blocking: Operations like file reading or database queries do not block the execution of other code. The program continues to run while the I/O operation is being processed in the background.
+
+Event Loop: Node.js uses an event loop to manage asynchronous operations. When an I/O operation is completed, a callback function or a promise is triggered to handle the result.
+
+Efficiency: Async I/O allows Node.js to handle multiple operations concurrently, making it highly efficient for I/O-intensive tasks.
